@@ -1,0 +1,65 @@
+﻿@model IEnumerable<AsignacionSaldosApp_HectorG.Models.AsignacionModel>
+
+<div class="container mt-4">
+	<h2>Asignación de Saldos a Gestores</h2>
+
+	<form asp-action="AsignacionSaldo" method="post" id="asignarForm">
+		<button type="submit" class="btn btn-primary mb-4" id="asignarBtn">Asignar Saldos</button>
+	</form>
+
+	<div id="spinner" class="text-center" style="display: none;">
+		<button class="btn btn-primary" type="button" disabled>
+			<span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+			<span role="status">Asignando... favor espere.</span>
+		</button>
+	</div>
+
+
+	@if (Model.Any())
+	{
+
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<th>Gestor</th>
+					<th>Cuenta</th>
+					<th>Saldo</th>
+					<th>Total Saldo por Gestor</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@item.NombreGestor</td>
+						<td>@item.NombreCuenta</td>
+						<td>@((int)item.SaldoCuenta)</td>
+						<td>@((int)item.TotalSaldosPorGestor)</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	}
+	else
+	{
+		<p id="noDataMessage">No hay datos asignados. Haga clic en "Asignar Saldos" para generar las asignaciones.</p>
+	}
+</div>
+
+@section Scripts {
+	<script>
+		document.getElementById('asignarBtn').addEventListener('click', function (event) {
+
+			document.getElementById('spinner').style.display = 'block';
+
+			var noDataMessage = document.getElementById('noDataMessage');
+			if (noDataMessage) {
+				noDataMessage.style.display = 'none';
+			}
+			event.preventDefault();
+			setTimeout(function () {
+				document.getElementById('asignarForm').submit();
+			}, 500);
+		});
+	</script>
+}
