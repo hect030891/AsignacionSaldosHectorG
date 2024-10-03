@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tCmSvcGwCOftbFL2K+FO78Q7P3zYiQeFC7vSWx7vBdsLwW5p/Xqu6yoe9WXzwEsOs/3tWAdrWG1ZxM6UyBLnjA==",
+  "dgSpecHash": "SnNBAyiNmfllpotW0WS7x/q7w+Q6eNv+q4eFE86CiBs0cnemxHyqnJf/EpCu38p6W5XYWzJ3c033viMwvQxTkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSI GF75\\source\\repos\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj",
+  "projectFilePath": "C:\\Users\\MSI GF75\\Source\\Repos\\AsignacionSaldosHectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI GF75\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\MSI GF75\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

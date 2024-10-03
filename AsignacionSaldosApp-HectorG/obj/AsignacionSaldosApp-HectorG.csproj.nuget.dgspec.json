@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI GF75\\source\\repos\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj": {}
+    "C:\\Users\\MSI GF75\\Source\\Repos\\AsignacionSaldosHectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI GF75\\source\\repos\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj": {
+    "C:\\Users\\MSI GF75\\Source\\Repos\\AsignacionSaldosHectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI GF75\\source\\repos\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj",
+        "projectUniqueName": "C:\\Users\\MSI GF75\\Source\\Repos\\AsignacionSaldosHectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj",
         "projectName": "AsignacionSaldosApp-HectorG",
-        "projectPath": "C:\\Users\\MSI GF75\\source\\repos\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj",
+        "projectPath": "C:\\Users\\MSI GF75\\Source\\Repos\\AsignacionSaldosHectorG\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG.csproj",
         "packagesPath": "C:\\Users\\MSI GF75\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI GF75\\source\\repos\\AsignacionSaldosApp-HectorG\\AsignacionSaldosApp-HectorG\\obj\\",
+        "outputPath": "C:\\Users\\MSI GF75\\Source\\Repos\\AsignacionSaldosHectorG\\AsignacionSaldosApp-HectorG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
